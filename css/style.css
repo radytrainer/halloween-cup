@@ -108,6 +108,7 @@ header {
 .icon {
     display: flex;
     align-items: center;
+   
 }
 .icon h2 {
     margin-left: 10px;
@@ -120,19 +121,25 @@ header {
     margin-left: 20px;
     font-weight: 600;
 }
-header a {
+
+.link {
+    display: flex;
+}
+.link a {
     background: orange;
     padding: 10px 25px;
     box-sizing: border-box;
     color: #f3f3f3;
-    border-radius: 40px;
+    border-radius: 2px;
     margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .icon-img {
     width: 20%;
 }
 .cost {
-    width: 8%;
+    width: 40px;
 }
 
 @media (max-width:1036px) {
@@ -158,6 +165,10 @@ header a {
     header {
         flex-wrap: wrap;
     }
+    .container {
+        width: 94%;
+    }
+   
 }
 @media (max-width:768px) {
     .card {
@@ -169,8 +180,16 @@ header a {
     .menu a {
         width: 100%;
     }
-    header a {
-        width: 100%;
+    .link a {
+        width: 45%;
         margin-top: 10px;
+    }
+    .icon, .link {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .container {
+        width: 97%;
     }
 }
