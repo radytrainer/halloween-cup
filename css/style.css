@@ -42,12 +42,11 @@ nav {
 
 section {
     padding: 10px;
-    
 }
 .container {
     width: 80%;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -141,6 +140,20 @@ header {
 .cost {
     width: 40px;
 }
+.text-title {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid orange;
+}
+.text-title h1 {
+    margin: 0;
+    
+}
+.container h1 span {
+    width: 100%;
+    box-sizing: border-box;
+}
 .btns {
     margin-top: 50px;
     text-align: center;
@@ -155,6 +168,11 @@ header {
     border-radius: 4px;
     color: #fff;
 
+}
+.thewinner {
+    background: url(../images/winner.jpg);
+    background-size: cover;
+    background-position: 0 -10px;
 }
 @media (max-width:1036px) {
     nav {
